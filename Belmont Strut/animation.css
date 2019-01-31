@@ -1,0 +1,15 @@
+#strut {
+    width: 16px;
+    height: 31px;
+    background: url(simon-walk-2.png) left center;
+    background-size: cover;
+    animation-name: walk;
+    animation-duration: 1s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;   
+    /*short form:
+    animation: walk, 1s, steps(4), infinite;*/
+}
+@keyframes walk {
+    100%{background-position: -64px}
+}
